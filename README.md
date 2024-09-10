@@ -78,20 +78,24 @@ Autocomplete is essential in many applications, but many solutions fail when fac
 ```bash
 git clone https://github.com/yourusername/autocomplete-engine.git
 cd autocomplete-engine
+```
 
 
 ### 2. Install dependencies
 Make sure Maven is installed, then run:
 
-```bash
+
 Copy code
+```bash
 mvn clean install
+```
 This will download all dependencies, including spark-core and gson.
 
 ### 3. Run the backend
 ```bash
 
 mvn exec:java -Dexec.mainClass="com.autocomplete.AutocompleteService"
+```
 This command starts the backend server, which will be listening on localhost:4567.
 
 ### 4. Open the frontend
