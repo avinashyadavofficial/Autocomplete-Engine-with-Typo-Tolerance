@@ -79,4 +79,51 @@ Autocomplete is essential in many applications, but many solutions fail when fac
 git clone https://github.com/yourusername/autocomplete-engine.git
 cd autocomplete-engine
 
+### 2. Install dependencies
+Make sure Maven is installed, then run:
+
+bash
+Copy code
+mvn clean install
+This will download all dependencies, including spark-core and gson.
+
+### 3. Run the backend
+bash
+Copy code
+mvn exec:java -Dexec.mainClass="com.autocomplete.AutocompleteService"
+This command starts the backend server, which will be listening on localhost:4567.
+
+### 4. Open the frontend
+Open the public/index.html file in any web browser to access the user interface.
+
+For a local setup, you can open index.html by navigating to the public directory and double-clicking the file.
+
+Alternatively, host the frontend using a web server or on GitHub Pages for live deployment.
+
+### 5. Test Autocomplete
+Start typing in the input box and watch the suggestions populate in real time.
+
+### 6. Handling Typos
+Make a small typo (e.g., typing "aple" instead of "apple"), and observe how the engine still provides relevant suggestions.
+
+## How It’s Different from Other Projects
+**Typo Tolerance**: Unlike basic autocomplete engines, this project introduces error correction by leveraging the Levenshtein Distance algorithm. Many autocomplete projects focus only on prefix matching, but here the user can make small mistakes and still get relevant suggestions.
+
+**Efficient Data Structures**: The use of a Trie data structure enhances search efficiency and scalability.
+
+**Real-time Performance**: While typo correction algorithms are generally computationally expensive, this project is optimized for real-time performance, handling user input quickly and accurately.
+
+**Simple Yet Powerful**: The combination of Java, Spark, and HTML/CSS/JavaScript makes the project accessible to developers while still demonstrating complex DSA concepts.
+
+**End-to-End Solution**: This project isn’t just about the algorithm. It includes a full-stack approach with both frontend and backend components, making it an excellent showcase for FAANG interviews where systems and scalability are key topics.
+
+### Contributing
+Feel free to fork the repository and submit pull requests for any improvements. Contributions are welcome, especially around optimization or extending the typo-tolerance capabilities.
+
+### License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+
+
+
 
