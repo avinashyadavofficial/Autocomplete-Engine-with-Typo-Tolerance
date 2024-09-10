@@ -1,5 +1,5 @@
 # Autocomplete-Engine-with-Typo-Tolerance
-# Autocomplete Engine with Typo Tolerance
+
 
 ## Table of Contents
 
