@@ -99,7 +99,7 @@ mvn exec:java -Dexec.mainClass="com.autocomplete.AutocompleteService"
 This command starts the backend server, which will be listening on localhost:4567.
 
 ### 4. Open the frontend
-Open the public/index.html file in any web browser to access the user interface.
+Open the *public/index.html* file in any web browser to access the user interface.
 
 For a local setup, you can open index.html by navigating to the public directory and double-clicking the file.
 
@@ -109,7 +109,7 @@ Alternatively, host the frontend using a web server or on GitHub Pages for live 
 Start typing in the input box and watch the suggestions populate in real time.
 
 ### 6. Handling Typos
-Make a small typo (e.g., typing "aple" instead of "apple"), and observe how the engine still provides relevant suggestions.
+Make a small typo **(e.g., typing "aple" instead of "apple")**, and observe how the engine still provides relevant suggestions.
 
 ## How It’s Different from Other Projects
 -**Typo Tolerance**: Unlike basic autocomplete engines, this project introduces error correction by leveraging the Levenshtein Distance algorithm. Many autocomplete projects focus only on prefix matching, but here the user can make small mistakes and still get relevant suggestions.
