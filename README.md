@@ -107,15 +107,15 @@ Start typing in the input box and watch the suggestions populate in real time.
 Make a small typo (e.g., typing "aple" instead of "apple"), and observe how the engine still provides relevant suggestions.
 
 ## How It’s Different from Other Projects
-**Typo Tolerance**: Unlike basic autocomplete engines, this project introduces error correction by leveraging the Levenshtein Distance algorithm. Many autocomplete projects focus only on prefix matching, but here the user can make small mistakes and still get relevant suggestions.
+-**Typo Tolerance**: Unlike basic autocomplete engines, this project introduces error correction by leveraging the Levenshtein Distance algorithm. Many autocomplete projects focus only on prefix matching, but here the user can make small mistakes and still get relevant suggestions.
 
-**Efficient Data Structures**: The use of a Trie data structure enhances search efficiency and scalability.
+-**Efficient Data Structures**: The use of a Trie data structure enhances search efficiency and scalability.
 
-**Real-time Performance**: While typo correction algorithms are generally computationally expensive, this project is optimized for real-time performance, handling user input quickly and accurately.
+- **Real-time Performance**: While typo correction algorithms are generally computationally expensive, this project is optimized for real-time performance, handling user input quickly and accurately.
 
-**Simple Yet Powerful**: The combination of Java, Spark, and HTML/CSS/JavaScript makes the project accessible to developers while still demonstrating complex DSA concepts.
+- **Simple Yet Powerful**: The combination of Java, Spark, and HTML/CSS/JavaScript makes the project accessible to developers while still demonstrating complex DSA concepts.
 
-**End-to-End Solution**: This project isn’t just about the algorithm. It includes a full-stack approach with both frontend and backend components, making it an excellent showcase for FAANG interviews where systems and scalability are key topics.
+- **End-to-End Solution**: This project isn’t just about the algorithm. It includes a full-stack approach with both frontend and backend components, making it an excellent showcase for FAANG interviews where systems and scalability are key topics.
 
 ### Contributing
 Feel free to fork the repository and submit pull requests for any improvements. Contributions are welcome, especially around optimization or extending the typo-tolerance capabilities.
